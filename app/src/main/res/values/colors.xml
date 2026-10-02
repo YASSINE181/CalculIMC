@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Material Theme colors -->
+    <color name="primary">#1E88E5</color>
+    <color name="primary_variant">#1565C0</color>
+    <color name="secondary">#00ACC1</color>
+    <color name="background">#F4F6F9</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- IMC Category Colors (Section 3 of PDF) -->
+    <color name="imc_underweight">#FF9800</color> <!-- Insuffisance pondérale: Orange -->
+    <color name="imc_normal">#4CAF50</color>      <!-- Corpulence normale: Vert -->
+    <color name="imc_overweight">#FF9800</color>  <!-- Surpoids: Orange -->
+    <color name="imc_obese_1">#F44336</color>     <!-- Obésité modérée: Rouge -->
+    <color name="imc_obese_2">#D32F2F</color>     <!-- Obésité sévère: Rouge -->
+    <color name="imc_obese_3">#8B0000</color>     <!-- Obésité morbide: Rouge foncé -->
+</resources>

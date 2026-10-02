@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General App Strings -->
+    <string name="app_name">CalculIMC</string>
+    <string name="title_main">Calcul de l\'IMC</string>
+    <string name="subtitle_main">Indice de Masse Corporelle</string>
+
+    <!-- Inputs & Labels -->
+    <string name="label_poids">Poids en kg</string>
+    <string name="hint_poids">Ex: 70</string>
+    <string name="label_taille">Taille en m</string>
+    <string name="hint_taille">Ex: 1.75</string>
+
+    <!-- Buttons -->
+    <string name="btn_calculer">Calculer</string>
+    <string name="btn_effacer">Effacer</string>
+    <string name="btn_partager">Partager le résultat</string>
+    <string name="btn_clear_history">Effacer l\'historique</string>
+
+    <!-- Unit selector -->
+    <string name="unit_meters">Mètres (m)</string>
+    <string name="unit_cm">Centimètres (cm)</string>
+
+    <!-- Results Section -->
+    <string name="title_results">Résultat de l\'IMC</string>
+    <string name="default_imc_value">--.--</string>
+    <string name="default_category">Veuillez saisir vos informations</string>
+    <string name="label_imc">IMC : %s</string>
+    <string name="label_category">Catégorie : %s</string>
+
+    <!-- Categories -->
+    <string name="cat_underweight">Insuffisance pondérale</string>
+    <string name="cat_normal">Corpulence normale</string>
+    <string name="cat_overweight">Surpoids</string>
+    <string name="cat_obese_1">Obésité modérée</string>
+    <string name="cat_obese_2">Obésité sévère</string>
+    <string name="cat_obese_3">Obésité morbide</string>
+
+    <!-- History Section -->
+    <string name="title_history">Historique des calculs</string>
+    <string name="empty_history">Aucun calcul enregisté</string>
+
+    <!-- Error Messages (Section 5 of PDF) -->
+    <string name="error_empty_poids">Veuillez entrer votre poids</string>
+    <string name="error_empty_taille">Veuillez entrer votre taille</string>
+    <string name="error_empty_both">Veuillez compléter toutes les informations</string>
+    <string name="error_invalid_poids">Le poids doit être un nombre positif supérieur à 0</string>
+    <string name="error_invalid_taille">La taille doit être un nombre positif supérieur à 0</string>
+    <string name="toast_calculation_success">IMC calculé avec succès !</string>
+    <string name="toast_fields_cleared">Champs réinitialisés</string>
+
+    <!-- Share Strings -->
+    <string name="share_title">Partager mon IMC</string>
+    <string name="share_content">Mon IMC est de %1$s (%2$s) calculé via CalculIMC.</string>
+</resources>
